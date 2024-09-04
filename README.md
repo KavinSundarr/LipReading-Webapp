@@ -12,6 +12,9 @@ Fig-1 : The segmented region
 
 To train our model we used CNN and LSTM	 combined architecture as it is a powerful approach to process sequential data with both spatial and temporal dependencies. The 3D convolution Network is better for working with videos. Similar to 2D convolution(spatial convolution), 3D convolution works by moving a kernel (also called a filter) across the input data to extract local characteristics. The kernel's size corresponds to the depth, height, and width of the data, and it spatially moves over the input volume. The kernel calculates the element-wise dot product with the relevant input sub-volume at each point. To create a feature map with high-level representations of the input volume, this process is repeated for all points. The output of the CNN is then fed into the LSTM as sequential data, where the LSTM captures temporal dependencies and patterns. In this architecture dense, dropout and bidirectional e able to convert paths through Temporeal component while using LSTM. As for the optimizer adam optimizer was used the final model was implemented using streamlit.
 
+![image](https://github.com/user-attachments/assets/60f4ffe2-b381-4059-88af-13b65cb6d702)
+
+
 # RESULTS
 ![image](https://github.com/user-attachments/assets/e5d9e65e-40f8-4f0e-b32f-4f312d48987f)
 ![image](https://github.com/user-attachments/assets/ea508071-5e50-4f30-9805-c54261a06016)
